@@ -72,7 +72,7 @@ def _fmt_years(y):
     return f"{round(y,1)}y" if y < 8 else f"{int(round(y))}y"
 
 # Explains why a candidate is a good fit for a job.
-class Insight:
+class UniversalInsightEngine:
 
 
     def __init__(self):
