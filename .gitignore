@@ -1,0 +1,37 @@
+# Python cache & build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Model & dataset caches
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+.cache/
+huggingface/
+transformers/
+sentence_transformers/
+
+# Uploaded files (resumes, JDs)
+uploads/
+data/
+*.pdf
+*.docx
+*.txt
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS / IDE files
+.DS_Store
+.idea/
+.vscode/
