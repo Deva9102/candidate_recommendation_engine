@@ -48,4 +48,14 @@ Candidate Recommendation Engine :
         pip install -r requirements.txt
     - Run the app : 
         streamlit run app.py
-    
+
+5. Note : 
+
+    - The application deployed on Streamlit Cloud runs successfully with the following requirements on requirements.txt
+    - The package versions in requirements.txt have been tested and verified to work on all computers when running the hosted Streamlit website.
+    - If you download the project files from GitHub and run them locally, package versions may need adjustment depending on your OS, Python version, or hardware.
+    - If you encounter issues with requirements and imports, please :
+        * use Python 3.11 or later
+        * Upgrade pip, setuptools, and wheel before installation - pip install --upgrade pip setuptools wheel
+        * Installing the dependencies with - pip install -r requirements.txt
+        * If errors persist, adjust specific package versions to match your local environment.
